@@ -1,6 +1,6 @@
 body {
-    font-family: 'Verdana', sans-serif;
-    margin: 50px 25px;
+    /*font-family: 'Verdana', sans-serif;*/
+    /*margin: 50px 25px;*/
 }
 
 a {
@@ -11,32 +11,111 @@ a:hover {
     color: #33bbdf;
 }
 
+#about {
+
+}
 header, footer, div.page {
-    width: 760px;
-    margin: 0 auto;
-    background: #daeef3;
-    padding: 20px 30px;
+    /*width: 760px;*/
+    /*margin: 0 auto;*/
+    /*background: #daeef3;*/
+    /*padding: 20px 30px;*/
 }
 
 header h1 {
-    color: #169bbd;
-    margin: 0;
-    font-weight: normal;
-    font-size: 42px;
+    /*color: #169bbd;*/
+    /*margin: 0;*/
+    /*font-weight: normal;*/
+    /*font-size: 42px;*/
 }
 
 header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    /*list-style: none;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
 }
 
 header nav ul li {
-    display: inline;
-    margin: 0 8px 0 0;
-    padding: 0;
+    /*display: inline;*/
+    /*margin: 0 8px 0 0;*/
+    /*padding: 0;*/
 }
 
 div.page {
-    background: #f1fbfe;
+    /*background: #f1fbfe;*/
+}
+
+.col{
+
+    display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  font-size: 18px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.image_container{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    width: 300px;
+    height: 300px;
+}
+
+h2{
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+    color:#4457C0;
+}
+
+
+.section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.portfoliokp{
+    display: grid;
+    margin-top:20px;
+    height: 300px;
+    align-items: center;
+    padding-right: 120px;
+    padding-left:120px;
+}
+.sect2{
+    display: grid;
+    height: 200px;
+    padding-right: 120px;
+    padding-left:120px;
+    align-items: center;
+    background-color: #4457C0;
+    color:whitesmoke
+}
+
+h1{
+    text-align: center;
+}
+
+.portfolio{
+    font-size: 24px;
+}
+
+#text{
+    font-size:14px;
+    color:rgb(214, 214, 214)
+}
+
+.header{
+    background-image: url(wave.svg);
+    justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
 }

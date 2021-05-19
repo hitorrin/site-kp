@@ -1,29 +1,85 @@
 <!doctype html>
 <meta charset="utf-8">
 <link rel="stylesheet" href="static/style.css">
-<title>Welcome to test! — test</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<title>Главная страница — Сайт по компьютерному практикуму</title>
 <body>
   <header>
-    <h1>test</h1>
+    <h1> Сайт по компьютерному практикуму</h1>
     <nav>
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="./">Welcome</a></li>
+      <ul class="nav nav-tabs">
+        <li class="nav-item"><a class="nav-link" href="./">Главная страница</a></li>
         
-          <li><a href="blog/">Blog</a></li>
+          <li><a class="nav-link" href="laboratornye-raboty/">Лабораторные работы</a></li>
         
-          <li><a href="projects/">Projects</a></li>
-        
-          <li><a href="about/">About</a></li>
+          <li><a class="nav-link" href="kontakty/">Контакты</a></li>
         
       </ul>
     </nav>
   </header>
   <div class="page">
     
-  <h2>Welcome to test!</h2>
-  <p>This is a basic demo website that shows how to use Lektor for a basic
-website with some pages and a blog.</p>
+  <h2>Главная страница</h2>
+  <div class="container">
+    <div class="row">
+        <div class="col-4">
+            <figure class="figure">
+                <div class="image_container">
+                <img src="https://i.ibb.co/NsXWYCV/cat.jpg" class="figure-img img-fluid rounded" alt="..."></div>
+                <figcaption class="figure-caption">У меня нет хорошей фотографии, зато есть классная фотография у этого кота</figcaption>
+              </figure>
+           </div>
+<div class="col"> Меня зовут Дарья, я студентка 2-ого курса РГПУ им. Герцена, обучаюсь на направлении "Информатика и вычислительная техника" (разработка программного обеспечения).  Немного разбираюсь в таких языках, как Си, Python; знаю на базовом уровне React.</div>
+</div>
+</div>
+</div> 
+<h2>Мое портфолио</h2>
+<div class='section sect2'>
+    <div class="row">
+    <div class="col-sm-10 portfolio">
+На мое портфолио вы можете перейти по следующей ссылке
+<p id='text'>Здесь вы можете просмотреть мои работы за 1ый и 2ой курс по другим дисциплинам</p>
+</div>
+<div class="col-sm-1 portfolio">
+<button type="button" class="btn btn-outline-light">1 курс</button>
+</div>
+<div class="col-sm-1 portfolio">
+    <button type="button" class="btn btn-outline-light">2 курс</button>
+    </div>
+</div>
+</div>
+<h2>Работы по компьютерному практикуму</h2>
+<div class='portfoliokp'>
+<div class="row">
 
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Лабораторная работа 1, 2</h5>
+          <p class="card-text">Установить Lektor и оформить сайт с помощью bootstrap</p>
+          <a href="#" class="btn btn-outline-primary">Перейти</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Лабораторная работа 3, 4</h5>
+          <p class="card-text">Здесь будет текст</p>
+          <a href="#" class="btn btn-outline-primary">Перейти</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Лабораторная работа 5,6</h5>
+            <p class="card-text">Здесь будет текст</p>
+            <a href="#" class="btn btn-outline-primary">Перейти</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
   </div>
   <footer>
